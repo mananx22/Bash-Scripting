@@ -10,5 +10,6 @@ This is also an example of multi-line comment in bash.
 '
 
 echo "you are using $( basename $0)"
+#test -z string True if the string is null (an empty string)
 test -z $1 && echo "you didn't supplied any parameters" || echo "yes you supplied parameter $1"
 exit 0
