@@ -15,3 +15,11 @@ echo $([ -f README.md -a -r README.md ]) $?
 
 # [ is a command for both a shell built-in and a standalone file. Using the type command, we can verify this:
 type -a [
+
+# [[ is bash's improvement to the [ command. It has several enhancements that make it a better choice if you write scripts that target bash. 
+
+echo "Example1"
+file=./README.md
+echo $( [ -f "$file" ] ) $?   "using single []"
+# to correctly handle empty strings or file names with spaces in them. With [[ the quotes are unnecessary:
+echo $( [ -f $file ] ) $?   "using [[]]"
