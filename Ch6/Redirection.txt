@@ -1,0 +1,14 @@
+../1 Read-function.sh is file
+../2.1 OptionsScriptPart2.sh is file
+../2.2 OptionsScriptPart3.sh is file
+../2 OptionsScript.sh is file
+../3 BackupscriptExample.sh is file
+../4 pingScript.sh is file
+../5 ReadFileScript.sh is file
+../ch3_1 If-Statement.sh is file
+../ch3 scripting.sh is file
+../Ch5_1 TypeCmdBasics.sh is file
+../Ch5_2 VariableSubstitution.sh is file
+../Ch5_3 DoubleParenthesis.sh is file
+../Ch6 is directory
+../README.md is file
