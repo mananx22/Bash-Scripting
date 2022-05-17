@@ -13,6 +13,11 @@ awk 'BEGIN { FS=":"}
 echo ">>>>>>>>>>>>>> XXXXX <<<<<<<<<<<<"
 # To apply Even more proper formatting
 awk 'BEGIN { FS=":" ; printf "%30s %4s %20s \n","Name","Process","PATH" } 
-{printf "%30s %4d %20s \n",$1,$3,$7}' /etc/passwd 
+{printf "%30s %4d %20s \n",$1,$3,$7}' /etc/passwd
+
+
+echo ">>>>>>>>>>>>>> XXXXX <<<<<<<<<<<<"
+# To apply Color Formatting using control file
+awk -f ch10_6_1AwkControlFile.awk /etc/passwd 
 
 
